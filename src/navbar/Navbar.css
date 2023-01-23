@@ -1,0 +1,52 @@
+#navbarMain::backdrop
+{
+    opacity: 0.33;
+}
+
+#navbarMain
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #090909a3;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+
+#openNavBarButton
+{
+    width: 29px;
+    height: 29px;
+    color: white;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 22px; /* Stay at the top */
+    left: 22px;
+    transition: 0.8s;
+}
+
+#closeNavBarButton
+{
+    width: 29px;
+    height: 29px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#navbarMain a 
+{
+    padding: 14px 0px 15px 4px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+    border-top: 2px solid #332f2f94;
+    transition: 0.3s;
+    max-height: 23px;
+  }

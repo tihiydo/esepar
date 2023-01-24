@@ -1,0 +1,27 @@
+.mapContainer
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.svgMap
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.svgMap path
+{
+    fill: #243449 !important;
+    stroke: #121736 !important;
+    fill-opacity: .9;
+}
+
+body
+{
+  background-image: url("/src/images/background.webp");
+  background-repeat: repeat;
+}

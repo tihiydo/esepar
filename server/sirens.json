@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "zopa": {
         "airSirenCount": 1,
@@ -24,31 +23,4 @@
         "artAlarmStartTime": 1238,
         "artAlarmEndTime": 1239
     }
-=======
-{
-    "zopa": {
-        "airSirenCount": 1,
-        "airAlarmStartTime": 12,
-        "airAlarmEndTime": 13,
-        "artSirenCount": 0,
-        "artAlarmStartTime": 0,
-        "artAlarmEndTime": 0
-    },
-    "zopas": {
-        "airSirenCount": 1,
-        "airAlarmStartTime": 15,
-        "airAlarmEndTime": 16,
-        "artSirenCount": 0,
-        "artAlarmStartTime": 0,
-        "artAlarmEndTime": 0
-    },
-    "yakesdrugemisto": {
-        "airSirenCount": 0,
-        "airAlarmStartTime": 0,
-        "airAlarmEndTime": 0,
-        "artSirenCount": 4,
-        "artAlarmStartTime": 1238,
-        "artAlarmEndTime": 1239
-    }
->>>>>>> 8c3c133d9094fad60eb635463f179222ddbd120e
 }

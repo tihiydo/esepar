@@ -2,10 +2,10 @@ import React from 'react';
 
 import './App.css';
 
-import { Alerts } from './pages/Alerts';
-import { PointsOfInvincibility } from './pages/PointsOfInvincibility';
 import { Routes, Route } from 'react-router-dom';
-import { Navbar } from './navbar/Navbar';
+import Alerts from './pages/Alerts';
+import PointsOfInvincibility from './pages/PointsOfInvincibility';
+import Navbar from './navbar/Navbar';
 
 function App() 
 {

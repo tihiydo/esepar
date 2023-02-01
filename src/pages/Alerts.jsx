@@ -120,4 +120,4 @@ const Alerts = () => {
     );
 };
 
-export { Alerts };
+export default Alerts;

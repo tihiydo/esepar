@@ -43,4 +43,4 @@ const PointsOfInvincibility = () =>
 //https://api.maptiler.com/maps/ch-swisstopo-lbm-dark/{z}/{x}/{y}.png?key=nSfkrzMVniyKN2CUi3FV
 //0.0001500 коф зміщення приблизний, але не точний, методом тика (коф різниця від гугл карт)
 
-export { PointsOfInvincibility };
+export default PointsOfInvincibility;

@@ -1,0 +1,26 @@
+{
+    "zopa": {
+        "airSirenCount": 1,
+        "airAlarmStartTime": 12,
+        "airAlarmEndTime": 13,
+        "artSirenCount": 0,
+        "artAlarmStartTime": 0,
+        "artAlarmEndTime": 0
+    },
+    "zopas": {
+        "airSirenCount": 1,
+        "airAlarmStartTime": 15,
+        "airAlarmEndTime": 16,
+        "artSirenCount": 0,
+        "artAlarmStartTime": 0,
+        "artAlarmEndTime": 0
+    },
+    "yakesdrugemisto": {
+        "airSirenCount": 0,
+        "airAlarmStartTime": 0,
+        "airAlarmEndTime": 0,
+        "artSirenCount": 4,
+        "artAlarmStartTime": 1238,
+        "artAlarmEndTime": 1239
+    }
+}

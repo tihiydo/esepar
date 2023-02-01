@@ -29,7 +29,7 @@ const PointsOfInvincibility = () =>
         url="https://st1.deepstatemap.live/styles/DSUkraineUk/{z}/{x}/{y}@2x.png"
       /> 
 
-      <Marker position={[49.0139 + 0.0001500, 31.2858]}>
+      <Marker position={[48.237689, 28.273496]}>
         <Popup>
           Поставити цю хуйню, не так то просто я 6 часов фіксив те що не сходяться версії
         </Popup>

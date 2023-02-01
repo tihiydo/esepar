@@ -104,9 +104,10 @@ def proccessTheDB(sirenArr, uTime):
     conlink = newc[0]
     concursor = newc[1]
 
-    sirenArr["sirenType"] = "artRebound"
-    sirenArr["sirenElement"] = "yakesdrugemisto"
-    uTime = 1240
+    #debug
+    #sirenArr["sirenType"] = "artRebound"
+    #sirenArr["sirenElement"] = "yakesdrugemisto"
+    #uTime = 1240
 
     if sirenArr["sirenType"] == "airAlarm" or sirenArr["sirenType"] == "airRebound":
         concursor.execute("CREATE TABLE IF NOT EXISTS airSiren (`sirenElement` TEXT NOT NULL, `airAlarmStartTime` INT, `airAlarmEndTime` INT)");

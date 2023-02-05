@@ -1,0 +1,18 @@
+{
+    "chernihiv": {
+        "airSirenCount": 1,
+        "airAlarmStartTime": 15,
+        "airAlarmEndTime": 0,
+        "artSirenCount": 0,
+        "artAlarmStartTime": 0,
+        "artAlarmEndTime": 0
+    },
+    "chernivtsi": {
+        "airSirenCount": 1,
+        "airAlarmStartTime": 13,
+        "airAlarmEndTime": 0,
+        "artSirenCount": 0,
+        "artAlarmStartTime": 0,
+        "artAlarmEndTime": 0
+    }
+}

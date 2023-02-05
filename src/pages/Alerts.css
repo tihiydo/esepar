@@ -1,27 +1,54 @@
+.mapScreen.list-map-layout
+{
+    display: flex;
+}
+.mapScreen.list-map-layout
+{
+    height: 0vh !important;
+}
+.mapScreen
+{
+    width: 100%;
+    max-width: 100vw;
+    min-height: calc(100vh - 100px);
+    overflow: auto;
+}
+
 .mapContainer
 {
-    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 75px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .svgMap
 {
-    margin: 0 auto;
-    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    max-height: calc(100vh - 100px);
 }
 
-.svgMap path
+.notActivePath
 {
-    fill: #243449 !important;
-    stroke: #121736 !important;
-    fill-opacity: .9;
+    fill: #303e50 !important;
+    stroke: #42526e !important;
+}
+
+.activePath {
+    fill: #361212 !important;
+    stroke: #473333 !important;
 }
 
 body
 {
-  background-image: url("/src/images/background.webp");
-  background-repeat: repeat;
+    background-color: #1a202c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }

@@ -1,7 +1,7 @@
 {
     "chernihiv": {
         "airSirenCount": 1,
-        "airAlarmStartTime": 15,
+        "airAlarmStartTime": 17,
         "airAlarmEndTime": 0,
         "artSirenCount": 0,
         "artAlarmStartTime": 0,
@@ -9,7 +9,15 @@
     },
     "chernivtsi": {
         "airSirenCount": 1,
-        "airAlarmStartTime": 13,
+        "airAlarmStartTime": 0,
+        "airAlarmEndTime": 0,
+        "artSirenCount": 0,
+        "artAlarmStartTime": 0,
+        "artAlarmEndTime": 0
+    },
+    "dnipropetrovsk": {
+        "airSirenCount": 1,
+        "airAlarmStartTime": 33,
         "airAlarmEndTime": 0,
         "artSirenCount": 0,
         "artAlarmStartTime": 0,

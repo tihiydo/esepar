@@ -33,6 +33,22 @@
     max-height: calc(100vh - 100px);
 }
 
+.progress-barText
+{
+    position: fixed;
+    bottom: 10px;
+    color: #9a9a9a;
+    left: 4px;
+    font-size: 0.58rem;
+}
+
+.progress-bar
+{
+    position: fixed;
+    bottom: 0;
+    height: 4px;
+    background-color: lime;
+}
 .notActivePath
 {
     fill: #303e50 !important;
@@ -42,6 +58,7 @@
 .activePath {
     fill: #361212 !important;
     stroke: #473333 !important;
+    transition: fill .13s ease-in-out;
 }
 
 body
@@ -51,4 +68,18 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+}
+
+.textP
+{
+    position: absolute;
+    z-index: 2;
+}
+
+.textP text
+{
+  font-size: 0.6rem;
+  fill: yellow;
+  stroke: #000000;
+  stroke-width: 0.013rem
 }
